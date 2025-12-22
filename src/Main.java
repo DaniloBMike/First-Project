@@ -8,6 +8,6 @@ public class Main {
         System.out.println("instruction number 03");
         System.out.println("instruction number 04");
 
-        
+
     }
 }
