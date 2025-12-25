@@ -11,7 +11,7 @@ public class Main {
         System.out.println("income monthly: " + incomeMonthly);
         System.out.println("Sex: " + Sex);
         System.out.println("employer Java: " + employerJava);
-        System.out.println("quantity of Cats: " + quantityofCats);
+        System.out.println("quantity of cats: " + quantityofCats);
 
 
     }
