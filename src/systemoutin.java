@@ -11,6 +11,5 @@ public class systemoutin {
 
         System.out.println("print and jump to the next line");
         System.out.println("print and jump to the next line");
-        
     }
 }
