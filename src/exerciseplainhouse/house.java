@@ -1,7 +1,9 @@
+package exerciseplainhouse;
+
 public class house {
     public static void main (String[] args) {
 
-        //Creating the object house
+        //Creating the object exerciseplainhouse.house
 
         houseplan house = new houseplan();
 
