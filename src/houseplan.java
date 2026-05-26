@@ -8,8 +8,8 @@ public class houseplan {
     String insideColor;
     String outsideColor;
     String material;
-    String restroom;
-    String backyard;
+    int restroom;
+    int backyard;
     int garageSpace;
     boolean kitchen;
 
@@ -21,8 +21,6 @@ public class houseplan {
         System.out.println(" The total size of the house is : " + houseSize);
         System.out.println(" The room quantity is : " + roomQuantity);
         System.out.println(" The bathroom quantity is : " + bathroomQuantity);
-        System.out.println(" The inside color is : " + insideColor);
-        System.out.println(" The outside color is : " + outsideColor);
         System.out.println(" The material used is : " + material);
         System.out.println(" The quantity of restroom is : " + restroom);
         System.out.println(" The quantity of backyard is : " + backyard);
@@ -30,6 +28,10 @@ public class houseplan {
         System.out.println(" There are kitchen in the house? " + kitchen);
 
 
+    }
+    public void paintingHouse(){
+        System.out.println(" The color inside of the house is : " + insideColor);
+        System.out.println(" The color outside of the house is : " + outsideColor);
     }
 
 
