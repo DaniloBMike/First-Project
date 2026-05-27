@@ -18,7 +18,7 @@ public class houseplan {
 
     //Method
 
-    protected void buildingHouse(){
+    public void buildingHouse(){
 
         System.out.println(" The total size of the exerciseplainhouse.house is : " + houseSize);
         System.out.println(" The room quantity is : " + roomQuantity);
@@ -31,10 +31,16 @@ public class houseplan {
 
 
     }
-    protected void paintingHouse(){
+    public void paintingHouse(){
         System.out.println(" The color inside of the exerciseplainhouse.house is : " + insideColor);
         System.out.println(" The color outside of the exerciseplainhouse.house is : " + outsideColor);
     }
+
+
+    public int multiplaySize (){
+        return houseSize * roomQuantity * bathroomQuantity;
+    }
+
 
 }
 
