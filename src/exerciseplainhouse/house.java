@@ -22,7 +22,7 @@ public class house {
 
         house.paintingHouse();
 
-
+        house.changeInsideColor("Red and black");
 
 
     }

@@ -36,6 +36,12 @@ public class houseplan {
         System.out.println(" The color outside of the exerciseplainhouse.house is : " + outsideColor);
     }
 
+    public void changeInsideColor(String newColorInside){
+        insideColor = newColorInside;
+        outsideColor = newColorInside;
+        paintingHouse();
+    }
+
 
     public int multiplaySize (){
         return houseSize * roomQuantity * bathroomQuantity;
