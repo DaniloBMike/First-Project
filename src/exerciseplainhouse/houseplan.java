@@ -27,18 +27,23 @@ public class houseplan {
         System.out.println(" The quantity of restroom is : " + restroom);
         System.out.println(" The quantity of backyard is : " + backyard);
         System.out.println(" How many spaces there are at the garage? " + garageSpace);
-        System.out.println(" There are kitchen in the exerciseplainhouse.house? " + kitchen);
+        System.out.println(" There are kitchen in the house9? " + kitchen);
 
 
     }
     public void paintingHouse(){
-        System.out.println(" The color inside of the exerciseplainhouse.house is : " + insideColor);
-        System.out.println(" The color outside of the exerciseplainhouse.house is : " + outsideColor);
+        System.out.println(" The color inside of the house is : " + insideColor);
+        System.out.println(" The color outside of the house is : " + outsideColor);
     }
 
     public void changeInsideColor(String newColorInside){
         insideColor = newColorInside;
         outsideColor = newColorInside;
+        paintingHouse();
+    }
+
+    public void newColorInside(String newColorInside){
+        insideColor = newColorInside;
         paintingHouse();
     }
 

@@ -24,6 +24,8 @@ public class house {
 
         house.changeInsideColor("Red and black");
 
+        house.newColorInside("Red and black");
+
 
     }
 
