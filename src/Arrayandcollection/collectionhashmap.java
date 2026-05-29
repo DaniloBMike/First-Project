@@ -1,3 +1,5 @@
+package Arrayandcollection;
+
 import java.util.HashMap;
 
 public class collectionhashmap {

@@ -1,3 +1,5 @@
+package exerciseIFELSE;
+
 import java.util.Scanner;
 
 public class IfElseScanner {
