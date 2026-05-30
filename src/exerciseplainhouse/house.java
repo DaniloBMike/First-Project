@@ -26,8 +26,11 @@ public class house {
 
         house.newColorInside("Red and black");
 
+        int result = house.multiplaySize();
+        System.out.println("The total size of the house and the quantity of the bedroom and bathroom is : " + result);
 
-    }
+   }
+
 
 
 }
