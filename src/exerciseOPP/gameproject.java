@@ -12,6 +12,7 @@ public class gameproject {
     String mainLanguage;
     String soundTrackMusic;
     String whichPlatform;
+    boolean pixelGame;
 
 
 
@@ -27,5 +28,6 @@ public class gameproject {
         System.out.println(" What is the main language to the game ? " + mainLanguage);
         System.out.println(" What is the sound track music to the game ? : " +  soundTrackMusic);
         System.out.println(" Which platform we can play the game ? " + whichPlatform);
+        System.out.println(" It is a pixel game ? " + pixelGame );
     }
 }
