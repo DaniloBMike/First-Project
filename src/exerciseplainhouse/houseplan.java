@@ -36,15 +36,16 @@ public class houseplan {
         System.out.println(" The color outside of the house is : " + outsideColor);
     }
 
-    public void changeInsideColor(String newColorInside){
-        insideColor = newColorInside;
-        outsideColor = newColorInside;
-        paintingHouse();
+    public void changeColor(String newColor) {
+
+        insideColor = newColor;
     }
 
-    public void newColorInside(String newColorInside){
-        insideColor = newColorInside;
-        paintingHouse();
+    public void newHouseSize(int newSize) {
+
+        houseSize = newSize;
+        buildingHouse();
+
     }
 
 

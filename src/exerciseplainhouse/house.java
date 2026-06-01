@@ -1,8 +1,9 @@
 package exerciseplainhouse;
 
 public class house {
-   public static void main (String[] args) {
 
+   public static void main (String[] args) {
+        
         //Creating the object exerciseplainhouse.house
 
         houseplan house = new houseplan();
@@ -22,9 +23,9 @@ public class house {
 
         house.paintingHouse();
 
-        house.changeInsideColor("Red and black");
+        house.changeColor("Red, white and black" );
 
-        house.newColorInside("Red and black");
+        house.newHouseSize(250);
 
         int result = house.multiplaySize();
         System.out.println("The total size of the house and the quantity of the bedroom and bathroom is : " + result);

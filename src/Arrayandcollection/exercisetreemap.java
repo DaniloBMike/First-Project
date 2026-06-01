@@ -1,3 +1,5 @@
+package Arrayandcollection;
+
 import java.util.TreeMap;
 
  public class exercisetreemap {
