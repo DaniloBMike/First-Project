@@ -16,6 +16,15 @@ public class houseplan {
     boolean kitchen;
 
 
+    public void changeParameters (int newSize, int newroomQuantity, int newBathRoomQuantity, int newgarage) {
+
+        houseSize = newSize;
+        roomQuantity = newroomQuantity;
+        bathroomQuantity = newroomQuantity;
+        garageSpace = newgarage;
+
+    }
+
     //Method
 
     public void buildingHouse(){
@@ -48,12 +57,14 @@ public class houseplan {
 
     }
 
-
     public int multiplaySize (){
         return houseSize * roomQuantity * bathroomQuantity;
     }
 
 
 }
+
+
+
 
 
