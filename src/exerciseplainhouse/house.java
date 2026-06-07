@@ -14,7 +14,7 @@ public class house {
         house.garageSpace = 2;
         house.houseSize = 150;
         house.material = "block";
-        house.backyard = 1;
+        house.backyard = true;
         house.restroom = 1;
         house.outsideColor = "light blue and green";
         house.insideColor = "light blue and white";
@@ -34,6 +34,10 @@ public class house {
 
 
    }
+
+          houseplan secondhouse = new houseplan(); {
+
+     }
 
 
 

@@ -11,7 +11,7 @@ public class houseplan {
     String outsideColor;
     String material;
     int restroom;
-    int backyard;
+    boolean backyard;
     int garageSpace;
     boolean kitchen;
 
