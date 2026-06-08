@@ -36,7 +36,7 @@ public class houseplan {
         System.out.println(" The quantity of restroom is : " + restroom);
         System.out.println(" The quantity of backyard is : " + backyard);
         System.out.println(" How many spaces there are at the garage? " + garageSpace);
-        System.out.println(" There are kitchen in the house9? " + kitchen);
+        System.out.println(" There are kitchen in the house? " + kitchen);
 
 
     }
@@ -48,6 +48,12 @@ public class houseplan {
     public void changeColor(String newColor) {
 
         insideColor = newColor;
+    }
+
+    public void newColorHouse2 (String newColorHouse2) {
+        outsideColor = newColorHouse2;
+        insideColor = newColorHouse2;
+
     }
 
     public void newHouseSize(int newSize) {
