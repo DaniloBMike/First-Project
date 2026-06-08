@@ -28,7 +28,7 @@ public class house2 {
 
         house2.paintingHouse();
 
-        house2.newColorHouse2 ("light orange");
+        house2.changeColorHouse2("light orange");
 
 
     }
