@@ -16,12 +16,21 @@ public class houseplan {
     boolean kitchen;
 
 
-    public void changeParameters (int newSize, int newroomQuantity, int newBathRoomQuantity, int newgarage) {
+    public void changeParameters (int newSize, int newRoomQuantity, int newBathroomQuantity, int newGarage) {
 
         houseSize = newSize;
-        roomQuantity = newroomQuantity;
-        bathroomQuantity = newroomQuantity;
-        garageSpace = newgarage;
+        roomQuantity = newRoomQuantity;
+        bathroomQuantity = newBathroomQuantity;
+        garageSpace = newGarage;
+
+    }
+
+    public void changeParameters2 (int newHouseSize2, int newHouseRoomQuantity2, int newHouseBathroomQuantity2, int newHouseGarage2) {
+
+        houseSize = newHouseSize2;
+        roomQuantity = newHouseRoomQuantity2;
+        bathroomQuantity = newHouseBathroomQuantity2;
+        garageSpace = newHouseGarage2;
 
     }
 
@@ -70,7 +79,7 @@ public class houseplan {
 
     }
 
-}
+    }
 
 
 

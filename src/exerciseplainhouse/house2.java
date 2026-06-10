@@ -30,6 +30,10 @@ public class house2 {
 
         house2.changeColorHouse2("light orange");
 
+        house2.changeParameters2 (150, 2, 3, 3 );
+
+        house2.buildingHouse();
+
 
     }
 }
