@@ -25,20 +25,15 @@ public class house {
 
         house.changeColor("Red, white and black" );
 
-        house.newHouseSize(250);
-
-        house.changeParameters(400, 5, 4, 3);
-
-        int result = house.multiplaySize();
-        System.out.println("The total size of the house and the quantity of the bedroom and bathroom is : " + result);
+//        house.newHouseSize(250);
+//
+//        house.changeParameters(400, 5, 4, 3);
+//
+//        int result = house.multiplaySize();
+//        System.out.println("The total size of the house and the quantity of the bedroom and bathroom is : " + result);
 
 
    }
-
-          houseplan secondhouse = new houseplan(); {
-
-     }
-
 
 
 }
