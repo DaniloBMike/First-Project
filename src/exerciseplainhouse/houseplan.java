@@ -48,12 +48,8 @@ public class houseplan {
     public void changeColor(String newColor) {
 
         insideColor = newColor;
-    }
-
-    public void changeColorHouse2 (String newColorHouse2) {
-        outsideColor = newColorHouse2;
-        insideColor = newColorHouse2;
-
+        outsideColor = newColor;
+        paintingHouse();
     }
 
     public void newHouseSize(int newSize) {
@@ -65,6 +61,14 @@ public class houseplan {
 
     public int multiplaySize (){return houseSize * roomQuantity * bathroomQuantity;}
 
+
+    public void changeColorHouse2 (String newColorHouse2) {
+
+        outsideColor = newColorHouse2;
+        insideColor = newColorHouse2;
+        paintingHouse();
+
+    }
 
 }
 
