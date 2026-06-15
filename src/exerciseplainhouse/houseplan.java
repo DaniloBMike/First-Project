@@ -79,6 +79,10 @@ public class houseplan {
 
     }
 
+    public int calculatingAllParameters2 (){
+        return houseSize * roomQuantity * bathroomQuantity - garageSpace + restroom;
+    }
+
     }
 
 

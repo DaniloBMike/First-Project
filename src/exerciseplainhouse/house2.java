@@ -34,6 +34,9 @@ public class house2 {
 
         house2.buildingHouse();
 
+        int resultHouse2 = house2.calculatingAllParameters2();
+        System.out.println(" The calculated result of the parameters is : " + resultHouse2);
+
 
     }
 }
