@@ -29,8 +29,6 @@ public class house2 {
 
         house2.paintingHouse();
 
-        house2.changeColorHouse2("light orange");
-
         house2.changeParameters2 (150, 2, 3, 3 );
 
         house2.buildingHouse();
@@ -40,6 +38,8 @@ public class house2 {
 
         String resultNameElements = house2.nameElements();
         System.out.println( " The name of all elements is : " + resultNameElements );
+
+        house2.changingColor2(" Black and Red");
 
 
 

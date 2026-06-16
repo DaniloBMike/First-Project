@@ -62,6 +62,13 @@ public class houseplan {
         paintingHouse();
     }
 
+    public void changingColor2 ( String newHouseColor2) {
+
+        insideColor = newHouseColor2;
+        outsideColor = newHouseColor2;
+        paintingHouse();
+    }
+
     public void newHouseSize(int newSize) {
 
         houseSize = newSize;
@@ -70,15 +77,6 @@ public class houseplan {
     }
 
     public int multiplaySize (){return houseSize * roomQuantity * bathroomQuantity;}
-
-
-    public void changeColorHouse2 (String newColorHouse2) {
-
-        outsideColor = newColorHouse2;
-        insideColor = newColorHouse2;
-        paintingHouse();
-
-    }
 
     public int multiplyingAllParameters ( ) {
         return houseSize * roomQuantity * garageSpace * bathroomQuantity;
@@ -89,6 +87,7 @@ public class houseplan {
     }
 
     }
+
 
 
 
