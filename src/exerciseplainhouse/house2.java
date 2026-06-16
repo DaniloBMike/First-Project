@@ -9,6 +9,7 @@ public class house2 {
 
         houseplan house2 = new houseplan();
 
+        house2.nameOwner = "Danilo";
         house2.kitchen = true;
         house2.houseSize = 80;
         house2.bathroomQuantity = 2;
@@ -34,8 +35,13 @@ public class house2 {
 
         house2.buildingHouse();
 
-        int resultHouse2 = house2.calculatingAllParameters2();
-        System.out.println(" The calculated result of the parameters is : " + resultHouse2);
+        int theMultiplyResult = house2.multiplyingAllParameters( );
+        System.out.println( " The result of all multiplying parameters is : " + theMultiplyResult );
+
+        String resultNameElements = house2.nameElements();
+        System.out.println( " The name of all elements is : " + resultNameElements );
+
+
 
 
     }

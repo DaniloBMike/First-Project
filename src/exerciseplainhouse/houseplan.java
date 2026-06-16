@@ -4,6 +4,7 @@ public class houseplan {
 
     //Attributes
 
+    String nameOwner;
     int houseSize;
     int roomQuantity;
     int bathroomQuantity;
@@ -79,8 +80,12 @@ public class houseplan {
 
     }
 
-    public int calculatingAllParameters2 (){
-        return houseSize * roomQuantity * bathroomQuantity - garageSpace + restroom;
+    public int multiplyingAllParameters ( ) {
+        return houseSize * roomQuantity * garageSpace * bathroomQuantity;
+    }
+
+    public String nameElements () {
+        return nameOwner + " " + insideColor + " " + outsideColor + " " + material ;
     }
 
     }
