@@ -9,7 +9,7 @@ public class house2 {
 
         houseplan house2 = new houseplan();
 
-        house2.nameOwner = "Danilo";
+        house2.ownerName = "Danilo";
         house2.kitchen = true;
         house2.houseSize = 80;
         house2.bathroomQuantity = 2;
@@ -29,8 +29,6 @@ public class house2 {
 
         house2.paintingHouse();
 
-        house2.changeParameters2 (150, 2, 3, 3 );
-
         house2.buildingHouse();
 
         int theMultiplyResult = house2.multiplyingAllParameters( );
@@ -40,6 +38,10 @@ public class house2 {
         System.out.println( " The name of all elements is : " + resultNameElements );
 
         house2.changingColor2(" Black and Red");
+
+        house2.changingParameters2 (" Silvana " , 160, 2, 1, 3 ); {
+
+        }
 
 
 

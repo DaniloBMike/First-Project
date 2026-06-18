@@ -27,19 +27,12 @@ public class house {
 
         house.newHouseSize(250);
 
-        house.changeParameters(400, 5, 4, 3);
 
         int result = house.multiplaySize();
         System.out.println("The total size of the house and the quantity of the bedroom and bathroom is : " + result);
 
 
-
-        System.out.println();
-
-        System.out.println( " NEW OBJECT CALLED HOUSE2 ");
-
-        System.out.println();
-
+        house.changeParameters(" Vanessa", 400, 4, 1, 1 );
 
 
 

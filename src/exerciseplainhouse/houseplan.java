@@ -4,7 +4,7 @@ public class houseplan {
 
     //Attributes
 
-    String nameOwner;
+    String ownerName;
     int houseSize;
     int roomQuantity;
     int bathroomQuantity;
@@ -17,21 +17,25 @@ public class houseplan {
     boolean kitchen;
 
 
-    public void changeParameters (int newSize, int newRoomQuantity, int newBathroomQuantity, int newGarage) {
+    public void changeParameters ( String newOwnerName, int newSize, int newRoomQuantity, int newBathroomQuantity, int newGarage) {
 
+        ownerName = newOwnerName;
         houseSize = newSize;
         roomQuantity = newRoomQuantity;
         bathroomQuantity = newBathroomQuantity;
         garageSpace = newGarage;
+        buildingHouse();
 
     }
 
-    public void changeParameters2 (int newHouseSize2, int newHouseRoomQuantity2, int newHouseBathroomQuantity2, int newHouseGarage2) {
+    public void changingParameters2 ( String newOwnerName2, int newHouseSize2, int newRoomQuantity2, int newBathRoomQuantity2, int newGarage2) {
 
+        ownerName = newOwnerName2;
         houseSize = newHouseSize2;
-        roomQuantity = newHouseRoomQuantity2;
-        bathroomQuantity = newHouseBathroomQuantity2;
-        garageSpace = newHouseGarage2;
+        roomQuantity = newRoomQuantity2;
+        bathroomQuantity = newBathRoomQuantity2;
+        garageSpace = newGarage2;
+        buildingHouse();
 
     }
 
@@ -39,6 +43,7 @@ public class houseplan {
 
     public void buildingHouse(){
 
+        System.out.println(" The owner Name is : " + ownerName);
         System.out.println(" The total size of the exerciseplainhouse.house is : " + houseSize);
         System.out.println(" The room quantity is : " + roomQuantity);
         System.out.println(" The bathroom quantity is : " + bathroomQuantity);
@@ -83,7 +88,7 @@ public class houseplan {
     }
 
     public String nameElements () {
-        return nameOwner + " " + insideColor + " " + outsideColor + " " + material ;
+        return ownerName + " " + insideColor + " " + outsideColor + " " + material ;
     }
 
     }
