@@ -6,4 +6,11 @@ public class student {
     double grade1;
     double grade2;
 
+
+    public void Result() {
+
+        System.out.println();
+        System.out.println();
+
+    }
 }
