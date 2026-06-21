@@ -1,15 +1,15 @@
 package exerciseOPP;
 
-public class studentGrades {
+public class StudentGrades {
     public static void main ( String [] args) {
 
-        student studentGrades = new student();
+        Student studentGrades = new Student();
 
         studentGrades.name = " Danilo ";
         studentGrades.grade1 = 6.5;
         studentGrades.grade2 = 8.3;
 
-        student studentGrades2 = new student();
+        Student studentGrades2 = new Student();
 
         studentGrades2.name = " Vanessa ";
         studentGrades2.grade1 = 7.5;
