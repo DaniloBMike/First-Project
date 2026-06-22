@@ -7,11 +7,9 @@ public class Student {
     double grade2;
 
 
-    public void result() {
-
-        System.out.println( " The final grade " + " Danilo ");
-        System.out.println( " The final grade " + " Vanessa ");
-
+    public double Average(){
+        return (grade1 + grade2) / 2;
+        System.out.println(" the result is : " + Average);
     }
 
 
