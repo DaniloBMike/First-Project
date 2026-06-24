@@ -9,8 +9,11 @@ public class Student {
 
     public double Average(){
         return (grade1 + grade2) / 2;
-        System.out.println(" the result is : " + Average);
     }
 
+    public void Result() {
+        double resultAverage = Average();
 
+        
+    }
 }
