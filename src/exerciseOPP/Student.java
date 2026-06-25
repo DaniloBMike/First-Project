@@ -13,7 +13,13 @@ public class Student {
 
     public void Result() {
         double resultAverage = Average();
+        System.out.println( " The average result is " + resultAverage );
+        if ( resultAverage >= 7.0) {
+            System.out.println( " The student Danilo pass the exam " + resultAverage );
+        }
+        else {
+            System.out.println(" The student Danilo do not pass the exam " + resultAverage);
+        }
 
-        
     }
 }

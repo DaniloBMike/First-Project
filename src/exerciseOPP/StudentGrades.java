@@ -15,7 +15,8 @@ public class StudentGrades {
         studentGrades2.grade1 = 7.5;
         studentGrades2.grade2 = 5.3;
 
-        studentGrades.result();
+        studentGrades.Result();
+
     }
 
 }
