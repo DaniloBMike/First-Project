@@ -15,7 +15,7 @@ public class arithmeticoperator {
         double totalDescont = texPayers - descont;
         double totalValueToPay = totalDescont / installments;
 
-        System.out.println("Total of Texpayers $ = " + texPayers );
+        System.out.println("Total of Taxpayers $ = " + texPayers );
         System.out.println("Total Monthly Value $ = " + totalMonthlyValue);
         System.out.println("Value after Desconts $ = " + totalDescont);
         System.out.println("Total Value to Pay $ = " + totalValueToPay);
