@@ -5,20 +5,19 @@ public class StudentGrades {
 
         Student studentGrades = new Student();
 
-        studentGrades.name1 = " Danilo ";
+        studentGrades.name = " Danilo ";
         studentGrades.grade1 = 6.5;
         studentGrades.grade2 = 8.3;
 
 
-        Student studentGrades2 = new Student();
+        Student studentGrades1 = new Student();
 
-        studentGrades2.name2 = " Vanessa ";
-        studentGrades2.grade3 = 7.5;
-        studentGrades2.grade4 = 5.3;
+        studentGrades1.name = " Vanessa ";
+        studentGrades1.grade1 = 7.5;
+        studentGrades1.grade2 = 5.3;
 
-        studentGrades.Result();
-        studentGrades2.Result1();
+        studentGrades.result();
+        studentGrades1.result();
     }
-
 
 }
