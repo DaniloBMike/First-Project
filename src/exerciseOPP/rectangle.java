@@ -12,9 +12,8 @@ public class rectangle {
     public double perimeter() {
         return 2 * ( width + height );
     }
-    public double describe() {
-        
-    }
+
+
 
 
 }
