@@ -3,14 +3,14 @@ package exerciseOPP;
 public class ResultRectangle {
     public static void main(String[] args) {
 
-        rectangle resultRectangle = new rectangle();
+        Rectangle resultRectangle = new Rectangle();
 
         resultRectangle.nameId = " firstRectangle ";
         resultRectangle.width = 50.50;
         resultRectangle.height = 35.35;
 
 
-        rectangle resultRectangle2 = new rectangle();
+        Rectangle resultRectangle2 = new Rectangle();
 
         resultRectangle2.nameId = " secondRectangle ";
         resultRectangle2.width = 20.55;

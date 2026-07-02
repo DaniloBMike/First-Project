@@ -1,6 +1,6 @@
 package exerciseOPP;
 
-public class rectangle {
+public class Rectangle {
 
     String nameId;
     double width;
@@ -15,8 +15,9 @@ public class rectangle {
     }
 
     public void describe () {
-        System.out.println( "  The area of the" + nameId + " is " + area() + " and the perimeters result is " + perimeter() +
-        " The area of the " + nameId + " is" + area() + " and the parameters is " + perimeter() );
+        System.out.println( " The area of the" + nameId + " is " + area() );
+        System.out.println( " The perimeter of the " + nameId + " is " + perimeter() );
     }
-
+    
 }
+
