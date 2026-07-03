@@ -18,6 +18,6 @@ public class Rectangle {
         System.out.println( " The area of the" + nameId + " is " + area() );
         System.out.println( " The perimeter of the " + nameId + " is " + perimeter() );
     }
-    
+
 }
 
