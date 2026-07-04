@@ -2,7 +2,7 @@ package exerciseOPP;
 
 public class Employee {
 
-    String Profession;
+    String profession;
     String name;
     double salary;
     int hoursWorked;
