@@ -4,14 +4,24 @@ public class Workers {
     public static void main ( String[] args) {
 
 
-         Employee workersData = new Employee();
+         Employee workerData = new Employee();
 
-         workersData.profession = " Developer TI ";
-         workersData.name = " Danilo ";
-         workersData.salary = 50000;
-         workersData.hoursWorked = 20;
+         workerData.profession = " Developer TI ";
+         workerData.name = " Danilo ";
+         workerData.whereLive = " Hokkaido, Japan ";
+         workerData.hybrid = false;
+         workerData.homeOffice = true;
+         workerData.salary = 50.000;
+         workerData.hoursWorked = 20;
 
-         
+
+
+        Employee workerData2 = new Employee();
+
+        workerData2.profession = " PM Product Manager ";
+        workerData2.name = " Mike ";
+        workerData2.salary = 60.000;
+        workerData2.hoursWorked = 15;
 
 
 
