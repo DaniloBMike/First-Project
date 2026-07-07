@@ -11,5 +11,11 @@ public class Employee {
     int hoursWorked;
 
 
+    public void bonus () {
+
+        if ( hoursWorked > 40 )
+            System.out.println( " Hours Worked: "  + hoursWorked );
+        else ( salary * 0.20)
+    }
 
 }

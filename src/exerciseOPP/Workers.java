@@ -16,12 +16,15 @@ public class Workers {
 
 
 
-        Employee workerData2 = new Employee();
+        Employee workerData02 = new Employee();
 
-        workerData2.profession = " PM Product Manager ";
-        workerData2.name = " Mike ";
-        workerData2.salary = 60.000;
-        workerData2.hoursWorked = 15;
+        workerData02.profession = " PM Product Manager ";
+        workerData02.name = " Mike ";
+        workerData02.whereLive = " Okinawa, Japan ";
+        workerData02.hybrid = false;
+        workerData02.homeOffice = true;
+        workerData02.salary = 60.000;
+        workerData02.hoursWorked = 15;
 
 
 
