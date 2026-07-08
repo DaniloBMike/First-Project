@@ -12,7 +12,7 @@ public class Workers {
          workerData.hybrid = false;
          workerData.homeOffice = true;
          workerData.salary = 50.000;
-         workerData.hoursWorked = 20;
+         workerData.hoursWorked = 30;
 
 
 
@@ -24,9 +24,11 @@ public class Workers {
         workerData02.hybrid = false;
         workerData02.homeOffice = true;
         workerData02.salary = 60.000;
-        workerData02.hoursWorked = 15;
+        workerData02.hoursWorked = 35;
 
 
+
+        workerData.bonus();
 
     }
 

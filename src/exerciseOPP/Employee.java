@@ -11,11 +11,19 @@ public class Employee {
     int hoursWorked;
 
 
+    public double bonusWorked () {
+        return hoursWorked * 0.20;
+    }
+
     public void bonus () {
 
-        if ( hoursWorked > 40 )
-            System.out.println( " Hours Worked: "  + hoursWorked );
-        else ( salary * 0.20)
+        if ( hoursWorked > 40) {
+            System.out.println( " Your bonus is : " + bonusWorked() );
+        } else {
+            System.out.println( " Your bonus is : " + bonusWorked( ) );
+        }
+
+
     }
 
 }
