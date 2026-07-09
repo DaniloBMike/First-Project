@@ -11,19 +11,21 @@ public class Employee {
     int hoursWorked;
 
 
-    public double bonusWorked () {
-        return hoursWorked * 0.20;
+    public double bonus () {
+        if ( hoursWorked > 40 ) {
+            return salary * 0.20;
+        }
+        else {
+            return 0;
+        }
     }
 
-    public void bonus () {
+    public double totalPayment () {
+        return salary + bonus();
+    }
 
-        if ( hoursWorked > 40) {
-            System.out.println( " Your bonus is : " + bonusWorked() );
-        } else {
-            System.out.println( " Your bonus is : " + bonusWorked( ) );
-        }
-
-
+    public void paysLip () {
+        System.out.println( " The worker name is : " + name + " Salary : " + salary + " bonus : " + bonus() + " And the total payment : " + totalPayment());
     }
 
 }
