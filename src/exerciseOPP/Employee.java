@@ -28,4 +28,14 @@ public class Employee {
         System.out.println( " The worker name is : " + name + " Salary : " + salary + " bonus : " + bonus() + " And the total payment : " + totalPayment());
     }
 
+    public void workSchedule ( int days ) {
+
+        for( int i = 1; i <= days; i++ ) {
+
+            System.out.println( " The worker is : " + name + " Day " + i + " : 8 hours worked " );
+        }
+
+
+    }
+
 }

@@ -4,15 +4,15 @@ public class Workers {
     public static void main ( String[] args) {
 
 
-         Employee workerData = new Employee();
+         Employee workerData01 = new Employee();
 
-         workerData.profession = " Developer TI ";
-         workerData.name = " Danilo ";
-         workerData.whereLive = " Hokkaido, Japan ";
-         workerData.hybrid = false;
-         workerData.homeOffice = true;
-         workerData.salary = 50.000;
-         workerData.hoursWorked = 30;
+         workerData01.profession = " Developer TI ";
+         workerData01.name = " Danilo ";
+         workerData01.whereLive = " Hokkaido, Japan ";
+         workerData01.hybrid = false;
+         workerData01.homeOffice = true;
+         workerData01.salary = 50000.0;
+         workerData01.hoursWorked = 30;
 
 
 
@@ -23,12 +23,15 @@ public class Workers {
         workerData02.whereLive = " Okinawa, Japan ";
         workerData02.hybrid = false;
         workerData02.homeOffice = true;
-        workerData02.salary = 60.000;
+        workerData02.salary = 60000.0;
         workerData02.hoursWorked = 35;
 
 
+        workerData01.workSchedule(5);
+        workerData01.paysLip();
+        workerData02.paysLip();
+        workerData02.workSchedule(5);
 
-        workerData.bonus();
 
     }
 
