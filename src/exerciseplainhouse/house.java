@@ -28,11 +28,11 @@ public class house {
         house.newHouseSize(250);
 
 
-        int result = house.multiplaySize();
-        System.out.println("The total size of the house and the quantity of the bedroom and bathroom is : " + result);
-
-
-        house.changeParameters(" Vanessa", 400, 4, 1, 1 );
+//        int result = house.multiplaySize();
+//        System.out.println("The total size of the house and the quantity of the bedroom and bathroom is : " + result);
+//
+//
+//        house.changeParameters(" Vanessa", 400, 4, 1, 1 );
 
 
 
