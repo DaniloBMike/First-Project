@@ -1,6 +1,6 @@
 package exerciseOPP;
 
-public class Staticmethod {
+public class Method {
 
     public static int multiplying ( int a, int b ) {
 
@@ -8,9 +8,9 @@ public class Staticmethod {
 
     }
 
-    public static String changeNumber ( Integer a ) {
+    public String converter (Integer a ) {
 
-        return a.toString();
+        return a.toString;
 
     }
 
