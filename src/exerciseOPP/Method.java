@@ -8,9 +8,9 @@ public class Method {
 
     }
 
-    public String converter (Integer a ) {
+    public static String converter( Integer a ) {
 
-        return a.toString;
+        return a.toString();
 
     }
 
