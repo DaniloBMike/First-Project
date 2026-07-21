@@ -1,9 +1,9 @@
 package exerciseOPP;
 
-public class game {
+public class Game {
     public static void main (String[]args ) {
 
-        gameproject game = new gameproject();
+        GameProject game = new GameProject();
 
         game.gameName = "Open Gate";
         game.characterQuantity = 5;

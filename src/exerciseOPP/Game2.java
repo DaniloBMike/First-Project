@@ -1,10 +1,10 @@
 package exerciseOPP;
 
-public class game2 {
+public class Game2 {
 
     public static void main(String[] args) {
 
-        gameproject game2 = new gameproject();
+        GameProject game2 = new GameProject();
 
         game2.gameName = "Dead Cat";
         game2.characterQuantity = 7;

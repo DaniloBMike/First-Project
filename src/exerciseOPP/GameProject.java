@@ -1,6 +1,6 @@
 package exerciseOPP;
 
-public class gameproject {
+public class GameProject {
 
     String gameName;
     int characterQuantity;

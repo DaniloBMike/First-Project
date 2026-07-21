@@ -1,6 +1,6 @@
 package exerciseOPP;
 
-public class Callmethods {
+public class CallMethods {
 
    public static void main(String[] args) {
 
