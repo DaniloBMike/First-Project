@@ -1,20 +1,20 @@
-package exerciseplainhouse;
+package HousePlainExercise;
 
 public class houseplan {
 
     //Attributes
 
-    String ownerName;
-    int houseSize;
-    int roomQuantity;
-    int bathroomQuantity;
-    String insideColor;
-    String outsideColor;
-    String material;
-    int restroom;
-    boolean backyard;
-    int garageSpace;
-    boolean kitchen;
+    public String ownerName;
+    public int houseSize;
+    public int roomQuantity;
+    public int bathroomQuantity;
+    public String insideColor;
+    public String outsideColor;
+    public String material;
+    public int restroom;
+    public boolean backyard;
+    public int garageSpace;
+    public boolean kitchen;
 
 
     public void changeParameters ( String newOwnerName, int newSize, int newRoomQuantity, int newBathroomQuantity, int newGarage) {
@@ -44,7 +44,7 @@ public class houseplan {
     public void buildingHouse(){
 
         System.out.println(" The owner Name is : " + ownerName);
-        System.out.println(" The total size of the exerciseplainhouse.house is : " + houseSize);
+        System.out.println(" The total size of the plainhouse.house is : " + houseSize);
         System.out.println(" The room quantity is : " + roomQuantity);
         System.out.println(" The bathroom quantity is : " + bathroomQuantity);
         System.out.println(" The material used is : " + material);

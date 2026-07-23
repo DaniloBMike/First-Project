@@ -1,4 +1,6 @@
-package exerciseplainhouse;
+package House;
+
+import HousePlainExercise.houseplan;
 
 public class house2 {
     public static void main (String[] args){

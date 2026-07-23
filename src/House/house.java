@@ -1,12 +1,15 @@
-package exerciseplainhouse;
+package House;
+
+import HousePlainExercise.houseplan;
 
 public class house {
-
    public static void main (String[] args) {
-        
-        //Creating the object exerciseplainhouse.house
 
-        houseplan house = new houseplan();
+
+
+        //Creating the object House.house
+
+        houseplan house = new houseplan ();
 
         house.kitchen = true;
         house.roomQuantity = 3;
