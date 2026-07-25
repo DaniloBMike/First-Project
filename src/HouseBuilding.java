@@ -1,8 +1,12 @@
 public interface HouseBuilding {
 
-    public interface calculateCostConstruction {
+    public interface construction {
 
-        void
+
+        void buildingHouse();
+        void paintingHouse();
+        int calculateCostConstruction ( int multiplayingAllParameters)
+
 
 
     }
