@@ -1,6 +1,6 @@
 package HousePlainExercise;
 
-public class houseplan {
+public class houseplan implements HouseBuilding.construction {
 
     //Attributes
 
@@ -58,6 +58,11 @@ public class houseplan {
     public void paintingHouse(){
         System.out.println(" The color inside of the house is : " + insideColor);
         System.out.println(" The color outside of the house is : " + outsideColor);
+    }
+
+    @Override
+    public int calculateCostConstruction(int multiplayingAllParameters) {
+        return 0;
     }
 
     public void changeColor(String newColor) {

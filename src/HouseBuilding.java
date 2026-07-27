@@ -5,7 +5,7 @@ public interface HouseBuilding {
 
         void buildingHouse();
         void paintingHouse();
-        int calculateCostConstruction ( int multiplayingAllParameters)
+        int calculateCostConstruction ( int multiplayingAllParameters);
 
 
 
