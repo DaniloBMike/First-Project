@@ -1,6 +1,6 @@
 package HousePlainExercise;
 
-public class houseplan implements HouseBuilding.construction {
+public class houseplan implements HouseBuilding {
 
     //Attributes
 
@@ -41,6 +41,9 @@ public class houseplan implements HouseBuilding.construction {
 
     //Method
 
+    //(@override é annotation)
+
+    @Override
     public void buildingHouse(){
 
         System.out.println(" The owner Name is : " + ownerName);
@@ -55,13 +58,19 @@ public class houseplan implements HouseBuilding.construction {
 
 
     }
+
+    @Override
+    public void paintingHouse(String color) {
+        System.out.println( " New color : " + color);
+    }
+
     public void paintingHouse(){
         System.out.println(" The color inside of the house is : " + insideColor);
         System.out.println(" The color outside of the house is : " + outsideColor);
     }
 
     @Override
-    public int calculateCostConstruction(int multiplayingAllParameters) {
+    public int calculatorCost(int multiplaySize) {
         return 0;
     }
 
