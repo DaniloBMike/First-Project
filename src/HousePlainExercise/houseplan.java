@@ -67,7 +67,7 @@ public class houseplan implements HouseBuilding {
 
     @Override
     public int calculatorCost(int multiplaySize) {
-        return 0;
+        return houseSize + roomQuantity + bathroomQuantity + garageSpace;
     }
 
     public void changeColor(String newColor) {
