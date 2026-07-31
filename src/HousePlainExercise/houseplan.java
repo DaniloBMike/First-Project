@@ -60,11 +60,7 @@ public class houseplan implements HouseBuilding {
     }
 
     @Override
-    public void paintingHouse(String color) {
-        System.out.println( " New color : " + color);
-    }
-
-    public void paintingHouse(){
+    public void paintingHouse() {
         System.out.println(" The color inside of the house is : " + insideColor);
         System.out.println(" The color outside of the house is : " + outsideColor);
     }
