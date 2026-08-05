@@ -66,7 +66,7 @@ public class houseplan implements HouseBuilding {
     }
 
     @Override
-    public int calculatorCost(int multiplaySize) {
+    public int costCalculator(int multiplaySize) {
         return houseSize + multiplaySize;
     }
 
