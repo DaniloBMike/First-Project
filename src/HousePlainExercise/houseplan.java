@@ -43,7 +43,7 @@ public class houseplan implements HouseBuilding {
 
     //(@override é annotation)
 
-    @Override
+
     public void buildingHouse(){
 
         System.out.println(" The owner Name is : " + ownerName);
@@ -60,6 +60,11 @@ public class houseplan implements HouseBuilding {
     }
 
     @Override
+    public void roomQuantity() {
+
+    }
+
+
     public void paintingHouse() {
         System.out.println(" The color inside of the house is : " + insideColor);
         System.out.println(" The color outside of the house is : " + outsideColor);
