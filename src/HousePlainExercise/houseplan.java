@@ -59,15 +59,12 @@ public class houseplan implements HouseBuilding {
 
     }
 
+
+
     @Override
     public void paintingHouse() {
         System.out.println(" The color inside of the house is : " + insideColor);
         System.out.println(" The color outside of the house is : " + outsideColor);
-    }
-
-    @Override
-    public int costCalculator(int multiplaySize) {
-        return houseSize + multiplaySize;
     }
 
     public void changeColor(String newColor) {
@@ -91,7 +88,8 @@ public class houseplan implements HouseBuilding {
 
     }
 
-    public int multiplaySize (){return houseSize * roomQuantity * bathroomQuantity;}
+    public int multiplaySize (){return houseSize * roomQuantity * bathroomQuantity;
+    }
 
     public int multiplyingAllParameters ( ) {
         return houseSize * roomQuantity * garageSpace * bathroomQuantity;
@@ -101,7 +99,10 @@ public class houseplan implements HouseBuilding {
         return ownerName + " " + insideColor + " " + outsideColor + " " + material ;
     }
 
-
+    @Override
+    public int multiplaySize (int multiplaySizer) {
+        return 0;
+    }
 
 
     }

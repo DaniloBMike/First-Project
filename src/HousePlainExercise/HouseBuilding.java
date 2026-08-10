@@ -3,10 +3,8 @@ package HousePlainExercise;
 public interface HouseBuilding {
 
     void buildingHouse();
-    int costCalculator( int multiplaySize );
+
+    int multiplaySize(int multiplaySize);
+
     void paintingHouse();
-
-
-
-
 }
