@@ -19,12 +19,7 @@ public class House3 implements HouseBuilding {
     public void buildingHouse() {
 
     }
-
-    @Override
-    public void roomQuantity() {
-
-    }
-
+    
     @Override
     public int costCalculator(int multiplaySize) {
         return 0;
