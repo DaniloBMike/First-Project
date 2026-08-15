@@ -6,12 +6,15 @@ public class Employee {
 
         String name;
         int age;
-        int salary;
+        double salary;
         int hoursWorked;
 
         public Employee (String name, int age, int salary, int hoursWorked) {
 
-            this.name = name
+            this.name = name;
+            this.age = age;
+            this.salary = salary;
+            this.hoursWorked = hoursWorked;
 
         }
 }
