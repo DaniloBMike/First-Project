@@ -7,14 +7,25 @@ public class Employee {
         String name;
         int age;
         double salary;
-        int hoursWorked;
+        int hoursDayWorked;
+        double hourWeekWorked;
 
-        public Employee (String name, int age, int salary, int hoursWorked) {
+        public Employee (String name, int age, int salary, int hoursDayWorked, double hourWeekWorked) {
 
             this.name = name;
             this.age = age;
             this.salary = salary;
-            this.hoursWorked = hoursWorked;
+            this.hoursDayWorked = hoursDayWorked;
+            this.hourWeekWorked = hourWeekWorked;
+
+            //methods
 
         }
+
+            public double monthlyHourWorked() {
+
+            return (hoursDayWorked * hourWeekWorked);
+            
+            }
+
 }
