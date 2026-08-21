@@ -28,4 +28,12 @@ public class Employeebase {
 
             }
 
+            public void allElements() {
+            System.out.println( " Employee name: " + name + " Employee age: " + age + " Employee salary: " + salary );
+            }
+
+            public void hoursMonthlyWorked() {
+            System.out.println(" The employee hours worked in monthly employee salary " + monthlyHourWorked());
+            }
+
 }
