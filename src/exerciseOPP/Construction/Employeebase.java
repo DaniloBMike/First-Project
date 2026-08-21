@@ -1,6 +1,6 @@
 package exerciseOPP.Construction;
 
-public class Employee {
+public class Employeebase {
 
         //Employee 01
 
@@ -8,9 +8,9 @@ public class Employee {
         int age;
         double salary;
         int hoursDayWorked;
-        double hourWeekWorked;
+        int hourWeekWorked;
 
-        public Employee (String name, int age, int salary, int hoursDayWorked, double hourWeekWorked) {
+        public Employeebase(String name, int age, double salary, int hoursDayWorked, int hourWeekWorked) {
 
             this.name = name;
             this.age = age;
