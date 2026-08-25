@@ -13,7 +13,7 @@ public class MotorcycleBase {
     }
 
     public boolean needsRevision() {
-        if(mileage >= 3.000) {
+        if(mileage >= 3000.0) {
             return true;
         }
         else {
@@ -22,11 +22,11 @@ public class MotorcycleBase {
     }
 
     public int age() {
-        return year;
+        return 2026 - year;
     }
 
     public void showStatus() {
-        System.out.println( "Model: " + model + " Year:" + year + " Mileage: " + mileage);
+        System.out.println( "Model: " + model + " Year:" + year + " Mileage:" + mileage + " Fabrication years old: " + age());
 
         if(needsRevision()) {
             System.out.println("Time for maintenance!");
