@@ -21,6 +21,16 @@ public class Course {
         this.price = price;
         this.graduate = graduate;
 
+    }
+
+    public void studyHours (double hours){
+
+        hoursCompleted = hoursCompleted + hours;
+    }
+
+    public double progress(){
+
+        return (hoursCompleted / totalHours) * 100;
 
     }
 }
