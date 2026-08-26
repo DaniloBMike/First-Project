@@ -12,6 +12,8 @@ public class Course {
     boolean graduate;
 
 
+    //Construction
+
     public Course(String courseName, String student, double totalHours, double hoursCompleted, double price, boolean graduate) {
 
         this.courseName = courseName;
@@ -20,8 +22,9 @@ public class Course {
         this.hoursCompleted = hoursCompleted;
         this.price = price;
         this.graduate = graduate;
-
     }
+
+    //Methods
 
     public void studyHours (double hours){
 
@@ -31,6 +34,21 @@ public class Course {
     public double progress(){
 
         return (hoursCompleted / totalHours) * 100;
+    }
+
+    public boolean isCompleted() {
+
+        if(progress() >= 100) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+    public void showProgressBar(){
+
+        for ()
 
     }
 }
