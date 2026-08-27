@@ -5,7 +5,7 @@ public class Course {
     //Attributes
 
     String courseName;
-    String student;
+    String studentName;
     double totalHours;
     double hoursCompleted;
     double price;
@@ -14,10 +14,10 @@ public class Course {
 
     //Construction
 
-    public Course(String courseName, String student, double totalHours, double hoursCompleted, double price, boolean graduate) {
+    public Course(String courseName, String studentName, double totalHours, double hoursCompleted, double price, boolean graduate) {
 
         this.courseName = courseName;
-        this.student = student;
+        this.studentName = studentName;
         this.totalHours = 0;
         this.hoursCompleted = hoursCompleted;
         this.price = price;
@@ -46,9 +46,8 @@ public class Course {
         }
     }
 
-    public void showProgressBar(){
+    public void showProgressBar() {
 
-        for ()
-
+        System.out.println(" Show : " + progress());
     }
 }
