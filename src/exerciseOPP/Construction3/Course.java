@@ -48,6 +48,8 @@ public class Course {
 
     public void showProgressBar() {
 
-        System.out.println(" Show : " + progress());
+        int changeType = (int) (progress() / 100);
+
+        for (int i)
     }
 }
