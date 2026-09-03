@@ -50,6 +50,20 @@ public class Course {
 
         int changeType = (int) (progress() / 100);
 
-        for (int i)
+        for (int i = 0; i <= changeType; i++) {
+
+            System.out.print(changeType + "%");
+        }
+    }
+
+    public void certificate() {
+
+        if (isCompleted()) {
+            System.out.println("The course is already completed and the Certificate issued for" + studentName);
+        }
+        else {
+            System.out.println("Keep going" + progress());
+        }
+
     }
 }
