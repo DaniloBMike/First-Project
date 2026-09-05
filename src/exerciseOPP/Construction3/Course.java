@@ -48,12 +48,12 @@ public class Course {
 
     public void showProgressBar() {
 
-        int changeType = (int) (progress() / 100);
+        int changeType = (int) (progress() / 10);
 
         for (int i = 0; i <= changeType; i++) {
-
-            System.out.print(changeType + "%");
         }
+
+        System.out.println(progress() + "%");
     }
 
     public void certificate() {
